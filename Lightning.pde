@@ -17,6 +17,7 @@ void setup()
 {
   	size(700,700);
   	strokeWeight(5);
+	//load image
 	img = loadImage("pikachu.png");
 }
 
