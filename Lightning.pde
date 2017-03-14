@@ -55,12 +55,7 @@ void draw()
 		startX2 = endX2;
 		startY2 = endY2;
 	}
-
-
-}
-
-void mousePressed()
-{
+	
 	startX = 390;
 	startY = 420;
 	endX = 0;
@@ -70,8 +65,9 @@ void mousePressed()
 	startY2 = 400;
 	endX2 = 150;
 	endY2 = 150;
-}
 
+
+}
 
 
 void drawSun() 
