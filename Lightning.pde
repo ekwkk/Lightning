@@ -28,8 +28,8 @@ void draw()
 	// PImage img = loadImage("pikachu.png");
   	background(img);
 	drawSun();
-	drawCloud();
-	drawAnotherCloud();
+	// drawCloud();
+	// drawAnotherCloud();
 	posX += 1;
 	if (posX >= 700)
 	{
