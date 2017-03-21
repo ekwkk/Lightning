@@ -11,22 +11,18 @@ int endY2 = 150;
 int posX = 316;
 int posY = 160;
 
-PImage img;
-
 void setup()
 {
   	size(700,700);
   	strokeWeight(5);
 	//load image
-	img = loadImage("pikachu.png");
+	PImage img = loadImage("pikachu.png");
 }
 
 
 
 void draw()
 {
-	//just load this thing
-	// PImage img = loadImage("pikachu.png");
   	background(img);
 	drawSun();
 	// drawCloud();
