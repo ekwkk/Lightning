@@ -25,6 +25,7 @@ void setup()
 
 void draw()
 {
+	//just load this thing
 	// PImage img = loadImage("pikachu.png");
   	background(img);
 	drawSun();
